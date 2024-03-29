@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yb0p6w8gl8jp"
+path="res://.godot/imported/23 D#.wav-739f3c02d1b94352007f6a568158d140.sample"
+
+[deps]
+
+source_file="res://sfx/keyboard_sfx/23 D#.wav"
+dest_files=["res://.godot/imported/23 D#.wav-739f3c02d1b94352007f6a568158d140.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

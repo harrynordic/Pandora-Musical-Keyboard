@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuuls4x8kc1kj"]
+
+[ext_resource type="PackedScene" uid="uid://brphc10xsjvs0" path="res://instruments/keyboard.tscn" id="1_b1xxf"]
+
+[node name="interface_principal" type="CanvasLayer"]
+
+[node name="keyboard" parent="." instance=ExtResource("1_b1xxf")]
+position = Vector2(699, 726)

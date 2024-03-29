@@ -1,0 +1,407 @@
+[gd_scene load_steps=89 format=3 uid="uid://brphc10xsjvs0"]
+
+[ext_resource type="Script" path="res://scripts/keyboard.gd" id="1_cn51c"]
+[ext_resource type="Texture2D" uid="uid://105copujibbd" path="res://assets/Keyboards/Keyboard Red.png" id="1_joctj"]
+[ext_resource type="Texture2D" uid="uid://cn0lk0gdapjyn" path="res://assets/Keyboards/teclas pressionadas/1.png" id="2_li5uc"]
+[ext_resource type="Texture2D" uid="uid://dig5gk7x3pbpc" path="res://assets/Keyboards/teclas pressionadas/2.png" id="3_glkgg"]
+[ext_resource type="Texture2D" uid="uid://d0w25rapfxmhj" path="res://assets/Keyboards/teclas pressionadas/3.png" id="4_8yfqj"]
+[ext_resource type="Texture2D" uid="uid://et3x8oxoi7cr" path="res://assets/Keyboards/teclas pressionadas/4.png" id="5_43ecl"]
+[ext_resource type="Texture2D" uid="uid://d2atirjry6cui" path="res://assets/Keyboards/teclas pressionadas/5.png" id="6_fer1v"]
+[ext_resource type="Texture2D" uid="uid://dvn3mpj76pwhk" path="res://assets/Keyboards/teclas pressionadas/6.png" id="7_dwq3k"]
+[ext_resource type="Texture2D" uid="uid://boj5shnp46up1" path="res://assets/Keyboards/teclas pressionadas/7.png" id="8_dsysh"]
+[ext_resource type="Texture2D" uid="uid://df5qk7xdjfilm" path="res://assets/Keyboards/teclas pressionadas/8.png" id="9_j4tds"]
+[ext_resource type="Texture2D" uid="uid://c254diiu6jc0b" path="res://assets/Keyboards/teclas pressionadas/9.png" id="10_llv6t"]
+[ext_resource type="Texture2D" uid="uid://c0pse54ihwgld" path="res://assets/Keyboards/teclas pressionadas/10.png" id="11_euhnl"]
+[ext_resource type="Texture2D" uid="uid://c881u73xc7gm3" path="res://assets/Keyboards/teclas pressionadas/11.png" id="12_ohks3"]
+[ext_resource type="Texture2D" uid="uid://c4y5k8cykc6bl" path="res://assets/Keyboards/teclas pressionadas/12.png" id="13_b0608"]
+[ext_resource type="Texture2D" uid="uid://d2b0iahhswqpn" path="res://assets/Keyboards/teclas pressionadas/13.png" id="14_m48nv"]
+[ext_resource type="Texture2D" uid="uid://d2t451mwx5gdm" path="res://assets/Keyboards/teclas pressionadas/14.png" id="15_7vapu"]
+[ext_resource type="Texture2D" uid="uid://diwxhbgjuv57" path="res://assets/Keyboards/teclas pressionadas/15.png" id="16_h55ko"]
+[ext_resource type="Texture2D" uid="uid://dl8xg214cs5mo" path="res://assets/Keyboards/teclas pressionadas/16.png" id="17_x7xwv"]
+[ext_resource type="Texture2D" uid="uid://bc5g5xxp0s2dw" path="res://assets/Keyboards/teclas pressionadas/17.png" id="18_tietd"]
+[ext_resource type="Texture2D" uid="uid://cl7u71001s7n3" path="res://assets/Keyboards/teclas pressionadas/18.png" id="19_k6rbb"]
+[ext_resource type="Texture2D" uid="uid://c32y7s7m3ij7t" path="res://assets/Keyboards/teclas pressionadas/19.png" id="20_lei4b"]
+[ext_resource type="Texture2D" uid="uid://cvnvw1hxl5nqo" path="res://assets/Keyboards/teclas pressionadas/20.png" id="21_rxhp6"]
+[ext_resource type="Texture2D" uid="uid://dsc5v0tokb1nn" path="res://assets/Keyboards/teclas pressionadas/21.png" id="22_rvobu"]
+[ext_resource type="Texture2D" uid="uid://dxi1olwk6ovs8" path="res://assets/Keyboards/teclas pressionadas/22.png" id="23_674km"]
+[ext_resource type="Texture2D" uid="uid://cihrsk1mg5w0j" path="res://assets/Keyboards/teclas pressionadas/23.png" id="24_7yt8k"]
+[ext_resource type="Texture2D" uid="uid://ysao2fpc000v" path="res://assets/Keyboards/teclas pressionadas/24.png" id="25_f6nx1"]
+[ext_resource type="Texture2D" uid="uid://c2x08qs7w5ifv" path="res://assets/Keyboards/teclas pressionadas/25.png" id="26_sf2mi"]
+[ext_resource type="Texture2D" uid="uid://di1xoipiuh7y1" path="res://assets/Keyboards/teclas pressionadas/26.png" id="27_6luuw"]
+[ext_resource type="Texture2D" uid="uid://n4crmw4hgql" path="res://assets/Keyboards/teclas pressionadas/27.png" id="28_xcsaa"]
+[ext_resource type="Texture2D" uid="uid://d6mgflbfsrb0" path="res://assets/Keyboards/teclas pressionadas/28.png" id="29_bj0un"]
+[ext_resource type="Texture2D" uid="uid://crbf3iuq0htds" path="res://assets/Keyboards/teclas pressionadas/29.png" id="30_qtqnb"]
+[ext_resource type="Texture2D" uid="uid://wjvqphvhe7a" path="res://assets/Keyboards/teclas pressionadas/30.png" id="31_np5ug"]
+[ext_resource type="Texture2D" uid="uid://df3engw44umsm" path="res://assets/Keyboards/teclas pressionadas/31.png" id="32_nwrp6"]
+[ext_resource type="Texture2D" uid="uid://bf2hnffoenn65" path="res://assets/Keyboards/teclas pressionadas/32.png" id="33_72d2h"]
+[ext_resource type="Texture2D" uid="uid://p4e3p0wghhhe" path="res://assets/Keyboards/teclas pressionadas/33.png" id="34_liimc"]
+[ext_resource type="Texture2D" uid="uid://3ufyt828xw58" path="res://assets/Keyboards/teclas pressionadas/34.png" id="35_nupv2"]
+[ext_resource type="Texture2D" uid="uid://bwld3qxifj3d8" path="res://assets/Keyboards/teclas pressionadas/35.png" id="36_0mims"]
+[ext_resource type="Texture2D" uid="uid://b1ku8gm88wpxs" path="res://assets/Keyboards/teclas pressionadas/36.png" id="37_okou5"]
+[ext_resource type="Texture2D" uid="uid://dfsvwvwlgl4tw" path="res://assets/Keyboards/teclas pressionadas/37.png" id="38_ujigm"]
+[ext_resource type="Texture2D" uid="uid://c7lxyggfj8tya" path="res://assets/Keyboards/teclas pressionadas/38.png" id="39_yet0c"]
+[ext_resource type="Texture2D" uid="uid://dgi337pm6nurh" path="res://assets/Keyboards/teclas pressionadas/39.png" id="40_c8hk0"]
+[ext_resource type="Texture2D" uid="uid://bd0f0b3ape06e" path="res://assets/Keyboards/teclas pressionadas/40.png" id="41_pnb76"]
+[ext_resource type="Texture2D" uid="uid://xlkp4imm617p" path="res://assets/Keyboards/teclas pressionadas/41.png" id="42_cum8c"]
+[ext_resource type="Texture2D" uid="uid://dao5dw2482v2c" path="res://assets/Keyboards/teclas pressionadas/42.png" id="43_h23id"]
+[ext_resource type="Texture2D" uid="uid://ctl2s4a7dakjn" path="res://assets/Keyboards/teclas pressionadas/43.png" id="44_xseag"]
+[ext_resource type="AudioStream" uid="uid://dywvxu2gn2k0x" path="res://sfx/keyboard_sfx/1 F.wav" id="46_vkhku"]
+[ext_resource type="AudioStream" uid="uid://c6uscyo8k0tgj" path="res://sfx/keyboard_sfx/2 F#.wav" id="47_tv3ni"]
+[ext_resource type="AudioStream" uid="uid://bfm4jf4jhuem7" path="res://sfx/keyboard_sfx/3 G.wav" id="48_xri2p"]
+[ext_resource type="AudioStream" uid="uid://dun1pg2y0xnxs" path="res://sfx/keyboard_sfx/4 G#.wav" id="49_q510c"]
+[ext_resource type="AudioStream" uid="uid://dbm05vd484lva" path="res://sfx/keyboard_sfx/5 A.wav" id="50_2a2qh"]
+[ext_resource type="AudioStream" uid="uid://3aamey8f4awg" path="res://sfx/keyboard_sfx/6 A#.wav" id="51_7irl3"]
+[ext_resource type="AudioStream" uid="uid://ct0y3818h5b6b" path="res://sfx/keyboard_sfx/7 B.wav" id="52_jgmyk"]
+[ext_resource type="AudioStream" uid="uid://bg6poc3e0wb5k" path="res://sfx/keyboard_sfx/8 C.wav" id="53_hceuv"]
+[ext_resource type="AudioStream" uid="uid://trhiurvko6am" path="res://sfx/keyboard_sfx/9 C#.wav" id="54_8nvhk"]
+[ext_resource type="AudioStream" uid="uid://qxfm6i4kfnuf" path="res://sfx/keyboard_sfx/10 D.wav" id="55_3yphf"]
+[ext_resource type="AudioStream" uid="uid://2iv0ufdvf3i3" path="res://sfx/keyboard_sfx/11 D#.wav" id="56_hui0g"]
+[ext_resource type="AudioStream" uid="uid://ssysplt265rp" path="res://sfx/keyboard_sfx/12 E.wav" id="57_3wu7n"]
+[ext_resource type="AudioStream" uid="uid://bsc7k0vcusilk" path="res://sfx/keyboard_sfx/13 F.wav" id="58_5a2n1"]
+[ext_resource type="AudioStream" uid="uid://cafsxic1eiqo4" path="res://sfx/keyboard_sfx/14 F#.wav" id="59_crcwm"]
+[ext_resource type="AudioStream" uid="uid://d0j43urylpk0q" path="res://sfx/keyboard_sfx/15 G.wav" id="60_rmcqq"]
+[ext_resource type="AudioStream" uid="uid://2t5jdbdf426n" path="res://sfx/keyboard_sfx/16 G#.wav" id="61_p50b7"]
+[ext_resource type="AudioStream" uid="uid://bje2r3wk8lobb" path="res://sfx/keyboard_sfx/17 A.wav" id="62_7tsgw"]
+[ext_resource type="AudioStream" uid="uid://bkrqiirfiv4fh" path="res://sfx/keyboard_sfx/18 A#.wav" id="63_q55p8"]
+[ext_resource type="AudioStream" uid="uid://chuqlpy2xcxb7" path="res://sfx/keyboard_sfx/19 B.wav" id="64_bb4s1"]
+[ext_resource type="AudioStream" uid="uid://c5wydivuqq4ky" path="res://sfx/keyboard_sfx/20 C.wav" id="65_6gb62"]
+[ext_resource type="AudioStream" uid="uid://c0huysdteqq1x" path="res://sfx/keyboard_sfx/21 C#.wav" id="66_dtgn7"]
+[ext_resource type="AudioStream" uid="uid://dma3ai78q2i2t" path="res://sfx/keyboard_sfx/22 D.wav" id="67_2s7bh"]
+[ext_resource type="AudioStream" uid="uid://yb0p6w8gl8jp" path="res://sfx/keyboard_sfx/23 D#.wav" id="68_x8k7x"]
+[ext_resource type="AudioStream" uid="uid://dpop3erhmfggj" path="res://sfx/keyboard_sfx/24 E.wav" id="69_eqf7s"]
+[ext_resource type="AudioStream" uid="uid://bxslrexoeuy4f" path="res://sfx/keyboard_sfx/25 F.wav" id="70_tbrdg"]
+[ext_resource type="AudioStream" uid="uid://dbo0w6767y2by" path="res://sfx/keyboard_sfx/26 F#.wav" id="71_o3sva"]
+[ext_resource type="AudioStream" uid="uid://ci175x6v2fmk" path="res://sfx/keyboard_sfx/27 G.wav" id="72_iuoob"]
+[ext_resource type="AudioStream" uid="uid://b4n43u4qgenpj" path="res://sfx/keyboard_sfx/28 G#.wav" id="73_hio6h"]
+[ext_resource type="AudioStream" uid="uid://hbbkf7lu6or3" path="res://sfx/keyboard_sfx/29 A.wav" id="74_cjkfl"]
+[ext_resource type="AudioStream" uid="uid://x82qkda7vaus" path="res://sfx/keyboard_sfx/30 A#.wav" id="75_enb6g"]
+[ext_resource type="AudioStream" uid="uid://cfimls1bnn8mm" path="res://sfx/keyboard_sfx/31 B.wav" id="76_5jb4g"]
+[ext_resource type="AudioStream" uid="uid://c4xdmcfch0nkn" path="res://sfx/keyboard_sfx/32 C.wav" id="77_bq3rr"]
+[ext_resource type="AudioStream" uid="uid://cpwefd2ugv7ei" path="res://sfx/keyboard_sfx/33 C#.wav" id="78_2ajki"]
+[ext_resource type="AudioStream" uid="uid://6s2t51fekg8s" path="res://sfx/keyboard_sfx/34 D.wav" id="79_vus4v"]
+[ext_resource type="AudioStream" uid="uid://dlulxarkae2hv" path="res://sfx/keyboard_sfx/35 D#.wav" id="80_q1bps"]
+[ext_resource type="AudioStream" uid="uid://4irfvy1lxpe" path="res://sfx/keyboard_sfx/36 E.wav" id="81_3tj4g"]
+[ext_resource type="AudioStream" uid="uid://bddappevksiny" path="res://sfx/keyboard_sfx/37 F.wav" id="82_pu7te"]
+[ext_resource type="AudioStream" uid="uid://edpf7fo6evtk" path="res://sfx/keyboard_sfx/38 F#.wav" id="83_vn3fn"]
+[ext_resource type="AudioStream" uid="uid://dsaokiyd4eer2" path="res://sfx/keyboard_sfx/39 G.wav" id="84_d2751"]
+[ext_resource type="AudioStream" uid="uid://biesxjl52n852" path="res://sfx/keyboard_sfx/40 G#.wav" id="85_160gp"]
+[ext_resource type="AudioStream" uid="uid://muh26y8alxwh" path="res://sfx/keyboard_sfx/41 A.wav" id="86_iswct"]
+[ext_resource type="AudioStream" uid="uid://c8wrxts7njvkj" path="res://sfx/keyboard_sfx/42 A#.wav" id="87_erfjo"]
+[ext_resource type="AudioStream" uid="uid://d1ekdb68yemdl" path="res://sfx/keyboard_sfx/43 B.wav" id="88_ah3uj"]
+
+[node name="keyboard" type="Node2D"]
+scale = Vector2(2.5, 2.5)
+script = ExtResource("1_cn51c")
+
+[node name="texture" type="Sprite2D" parent="."]
+position = Vector2(0, -48)
+texture = ExtResource("1_joctj")
+
+[node name="animation_keys" type="Node2D" parent="texture"]
+
+[node name="1" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("2_li5uc")
+
+[node name="2" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("3_glkgg")
+
+[node name="3" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("4_8yfqj")
+
+[node name="4" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("5_43ecl")
+
+[node name="5" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("6_fer1v")
+
+[node name="6" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("7_dwq3k")
+
+[node name="7" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("8_dsysh")
+
+[node name="8" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("9_j4tds")
+
+[node name="9" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("10_llv6t")
+
+[node name="10" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("11_euhnl")
+
+[node name="11" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("12_ohks3")
+
+[node name="12" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("13_b0608")
+
+[node name="13" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("14_m48nv")
+
+[node name="14" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("15_7vapu")
+
+[node name="15" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("16_h55ko")
+
+[node name="16" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("17_x7xwv")
+
+[node name="17" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("18_tietd")
+
+[node name="18" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("19_k6rbb")
+
+[node name="19" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("20_lei4b")
+
+[node name="20" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+scale = Vector2(1, 1)
+texture = ExtResource("21_rxhp6")
+
+[node name="21" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("22_rvobu")
+
+[node name="22" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("23_674km")
+
+[node name="23" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("24_7yt8k")
+
+[node name="24" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("25_f6nx1")
+
+[node name="25" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("26_sf2mi")
+
+[node name="26" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("27_6luuw")
+
+[node name="27" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+scale = Vector2(1, 1)
+texture = ExtResource("28_xcsaa")
+
+[node name="28" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("29_bj0un")
+
+[node name="29" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("30_qtqnb")
+
+[node name="30" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("31_np5ug")
+
+[node name="31" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("32_nwrp6")
+
+[node name="32" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("33_72d2h")
+
+[node name="33" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("34_liimc")
+
+[node name="34" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+scale = Vector2(1, 1)
+texture = ExtResource("35_nupv2")
+
+[node name="35" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("36_0mims")
+
+[node name="36" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("37_okou5")
+
+[node name="37" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("38_ujigm")
+
+[node name="38" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("39_yet0c")
+
+[node name="39" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("40_c8hk0")
+
+[node name="40" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("41_pnb76")
+
+[node name="41" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+scale = Vector2(1, 1)
+texture = ExtResource("42_cum8c")
+
+[node name="42" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("43_h23id")
+
+[node name="43" type="Sprite2D" parent="texture/animation_keys"]
+visible = false
+texture = ExtResource("44_xseag")
+
+[node name="notas" type="Node2D" parent="."]
+
+[node name="1" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("46_vkhku")
+
+[node name="2" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("47_tv3ni")
+
+[node name="3" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("48_xri2p")
+
+[node name="4" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("49_q510c")
+
+[node name="5" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("50_2a2qh")
+
+[node name="6" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("51_7irl3")
+
+[node name="7" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("52_jgmyk")
+
+[node name="8" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("53_hceuv")
+
+[node name="9" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("54_8nvhk")
+
+[node name="10" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("55_3yphf")
+
+[node name="11" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("56_hui0g")
+
+[node name="12" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("57_3wu7n")
+
+[node name="13" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("58_5a2n1")
+
+[node name="14" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("59_crcwm")
+
+[node name="15" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("60_rmcqq")
+
+[node name="16" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("61_p50b7")
+
+[node name="17" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("62_7tsgw")
+
+[node name="18" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("63_q55p8")
+
+[node name="19" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("64_bb4s1")
+
+[node name="20" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("65_6gb62")
+
+[node name="21" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("66_dtgn7")
+
+[node name="22" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("67_2s7bh")
+
+[node name="23" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("68_x8k7x")
+
+[node name="24" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("69_eqf7s")
+
+[node name="25" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("70_tbrdg")
+
+[node name="26" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("71_o3sva")
+
+[node name="27" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("72_iuoob")
+
+[node name="28" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("73_hio6h")
+
+[node name="29" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("74_cjkfl")
+
+[node name="30" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("75_enb6g")
+
+[node name="31" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("76_5jb4g")
+
+[node name="32" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("77_bq3rr")
+
+[node name="33" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("78_2ajki")
+
+[node name="34" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("79_vus4v")
+
+[node name="35" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("80_q1bps")
+
+[node name="36" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("81_3tj4g")
+
+[node name="37" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("82_pu7te")
+
+[node name="38" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("83_vn3fn")
+
+[node name="39" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("84_d2751")
+
+[node name="40" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("85_160gp")
+
+[node name="41" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("86_iswct")
+
+[node name="42" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("87_erfjo")
+
+[node name="43" type="AudioStreamPlayer2D" parent="notas"]
+stream = ExtResource("88_ah3uj")
